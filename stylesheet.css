@@ -9,21 +9,22 @@ table {
   width: 100%;
 }
 
-td {
+table td {
   border: 1px solid ;
   text-align: left;
   padding: 8px;
 }
 
-th {
+table th {
     border:1px solid ;
     text-align: left ;
     padding: 8px
 }
 
-tr:nth-child(even) {
-  background-color;
+table tr:nth-child(even) {
+  background-color:solid black;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
@@ -37,3 +38,4 @@ footer {
     font-style: italic;
 
 }
+
