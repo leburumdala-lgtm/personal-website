@@ -9,10 +9,16 @@ table {
   width: 100%;
 }
 
-td, th {
+td {
   border: 1px solid ;
   text-align: left;
   padding: 8px;
+}
+
+th {
+    border:1px solid ;
+    text-align: left ;
+    padding: 8px
 }
 
 tr:nth-child(even) {
@@ -29,4 +35,5 @@ footer {
     font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
+
 }
