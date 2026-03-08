@@ -16,6 +16,7 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  overflow-x:auto;
 }
 
 table td {
@@ -47,5 +48,6 @@ footer {
     font-style: italic;
 
 }
+
 
 
