@@ -3,6 +3,15 @@ w3h1 {
     text-align: center;
     text-decoration: solid;
 }
+nav {
+     background-color: #444;
+     display: flex;
+     justify-content:center;
+     gap:25px;
+     padding:20px;
+    flex-wrap:wrap;
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -38,4 +47,5 @@ footer {
     font-style: italic;
 
 }
+
 
