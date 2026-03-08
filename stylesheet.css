@@ -44,6 +44,19 @@ nav {
 .content-area{
     width:70%;
 }
+.gallery-container{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.gallery-container img{
+    width:200px;
+    height:150px;
+    object-fit:cover;
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -99,6 +112,7 @@ footer {
     }
 }
         
+
 
 
 
