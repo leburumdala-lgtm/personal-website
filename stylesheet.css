@@ -30,7 +30,20 @@ nav {
     margin-top:0px;
     color:#222;
 }
-
+.two-column-layout{
+    display:flex;
+    gap:20px;
+    margin-top:20px;
+}
+.sidebar {
+    background-color:#eee;
+    padding:15px;
+    border-radius:8px;
+    width:30%;
+}
+.content-area{
+    width:70%;
+}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -67,6 +80,25 @@ footer {
     font-style: italic;
 
 }
+@media(max-width:768px){
+    main{
+        width:95%;
+    }
+    .two-column-layout{
+        flex-direction:column;
+    }
+    .sidebar,.content-area{
+        width:100%;
+    }
+    .project-card{
+        with:100%;
+    }
+    nav{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+        
 
 
 
