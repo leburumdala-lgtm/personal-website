@@ -74,18 +74,12 @@ table {
   border:1px solid #444;  
 }
 
-table td {
+table td,th {
   border: 1px solid #444 ;
   text-align: left;
   padding: 8px;
+    
 }
-
-table th {
-    border:1px solid #444 ;
-    text-align: left ;
-    padding: 8px;
-}
-
 table tr:nth-child(even) {
   background-color:#f2f2f2;
 }
@@ -122,6 +116,7 @@ footer {
     }
 }
         
+
 
 
 
