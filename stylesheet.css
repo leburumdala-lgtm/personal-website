@@ -16,7 +16,7 @@ nav a {
     text-decoration:none;
 }
 nav a:hover{
-    color: #333;
+    color: #444;
 }
 .project-cointainer{
     display:flex;
@@ -33,7 +33,7 @@ nav a:hover{
     flex-grow:1;
     box-shadow:0px 2px 5px rgba(0,0,0,0.1);
 }
-.project-card h3{
+.project-cardh3{
     margin-top:0px;
     color:#222;
 }
@@ -122,6 +122,7 @@ footer {
     }
 }
         
+
 
 
 
