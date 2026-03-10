@@ -71,17 +71,17 @@ table {
   border-collapse: collapse;
   width: 100%;
   overflow-x:auto;
-  border:1px solid #000;  
+  border:1px solid #444;  
 }
 
 table td {
-  border: 1px solid #000 ;
+  border: 1px solid #444 ;
   text-align: left;
   padding: 8px;
 }
 
 table th {
-    border:1px solid #000 ;
+    border:1px solid #444 ;
     text-align: left ;
     padding: 8px;
 }
@@ -122,6 +122,7 @@ footer {
     }
 }
         
+
 
 
 
