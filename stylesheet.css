@@ -4,12 +4,19 @@ h1 {
     text-decoration: none;
 }
 nav {
-     background-color: #444;
+     background-color: #d3d3d3;
      display: flex;
      justify-content:center;
      gap:25px;
      padding:20px;
     flex-wrap:wrap;
+}
+nav a {
+    color:white;
+    text-decoration:none;
+}
+nav a:hover{
+    color: #333;
 }
 .project-cointainer{
     display:flex;
@@ -115,6 +122,7 @@ footer {
     }
 }
         
+
 
 
 
